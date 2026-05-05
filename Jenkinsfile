@@ -13,8 +13,10 @@ pipeline {
         stage('Install Dependencies') {
             steps {
                 sh '''
-                    pip3 install -r requirements.txt
-                    python3 -m playwright install --with-deps chromium
+                    python3 -m venv venv
+                    . venv/bin/activate
+                    pip install -r requirements.txt
+                    playwright install --with-deps chromium
                 '''
             }
         }
@@ -22,7 +24,7 @@ pipeline {
         stage('Run API Tests') {
             steps {
                 sh '''
-                    . env/bin/activate
+                    . venv/bin/activate
                     pytest tests/api/ -v --html=reports/report.html --self-contained-html
                 '''
             }
