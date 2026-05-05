@@ -1,6 +1,5 @@
 FROM jenkins/jenkins:lts
 
-# switch to root to install system packages
 USER root
 
 # install python and system dependencies
@@ -24,9 +23,9 @@ RUN apt-get update && apt-get install -y \
     libpangocairo-1.0-0 \
     && rm -rf /var/lib/apt/lists/*
 
-# install playwright and chromium globally
+# install playwright and chromium as root so all users can access it
 RUN pip3 install playwright --break-system-packages \
-    && playwright install chromium
+    && playwright install chromium \
+    && chmod -R 777 /root/.cache/ms-playwright
 
-# switch back to jenkins user
 USER jenkins
