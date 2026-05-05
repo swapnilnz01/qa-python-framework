@@ -1,0 +1,14 @@
+2026-05-05 10:56:30 | INFO | tests.api.test_posts | Testing GET /posts
+2026-05-05 10:56:31 | DEBUG | tests.api.test_posts | Status code: 200
+2026-05-05 10:56:31 | INFO | tests.api.test_posts | PASSED - got 100 posts
+2026-05-05 10:59:14 | INFO | tests.api.test_posts | Testing GET /posts
+2026-05-05 10:59:14 | DEBUG | tests.api.test_posts | Status code: 200
+2026-05-05 10:59:14 | INFO | tests.api.test_posts | PASSED - got 100 posts
+2026-05-05 10:59:15 | INFO | tests.api.test_posts | Testing GET /posts/1
+2026-05-05 10:59:15 | DEBUG | tests.api.test_posts | Status: 200
+2026-05-05 10:59:15 | INFO | tests.api.test_posts | Testing GET /posts/50
+2026-05-05 10:59:16 | DEBUG | tests.api.test_posts | Status: 200
+2026-05-05 10:59:16 | INFO | tests.api.test_posts | Testing GET /posts/100
+2026-05-05 10:59:16 | DEBUG | tests.api.test_posts | Status: 200
+2026-05-05 10:59:16 | INFO | tests.api.test_posts | Testing GET /posts/999
+2026-05-05 10:59:17 | DEBUG | tests.api.test_posts | Status: 404
