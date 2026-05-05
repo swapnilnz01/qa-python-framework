@@ -20,11 +20,13 @@ pipeline {
             }
         }
 
-        stage('Run API Tests') {
+        stage('Run Tests') {
             steps {
                 sh '''
                     . venv/bin/activate
-                    pytest tests/api/ -v --html=reports/report.html --self-contained-html
+                    pytest tests/api/ -v -n 7 \
+                        --html=reports/report.html \
+                        --self-contained-html
                 '''
             }
         }
