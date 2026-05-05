@@ -1,10 +1,10 @@
 import requests
+from utils.config_reader import ConfigReader
 
-BASE_URL = "https://jsonplaceholder.typicode.com"
 
 class APIClient:
     def __init__(self):
-        self.base_url = BASE_URL
+        self.base_url = ConfigReader.get_base_url()
         self.session = requests.Session()
 
     def get(self, endpoint):              

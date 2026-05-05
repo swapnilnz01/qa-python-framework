@@ -12,3 +12,32 @@
 2026-05-05 10:59:16 | DEBUG | tests.api.test_posts | Status: 200
 2026-05-05 10:59:16 | INFO | tests.api.test_posts | Testing GET /posts/999
 2026-05-05 10:59:17 | DEBUG | tests.api.test_posts | Status: 404
+2026-05-05 15:49:18 | INFO | tests.api.test_posts | Testing GET /posts
+2026-05-05 15:49:18 | DEBUG | tests.api.test_posts | Status code: 200
+2026-05-05 15:49:18 | INFO | tests.api.test_posts | PASSED - got 100 posts
+2026-05-05 15:49:19 | INFO | tests.api.test_posts | Testing GET /posts/1
+2026-05-05 15:49:20 | DEBUG | tests.api.test_posts | Status: 200
+2026-05-05 15:49:20 | INFO | tests.api.test_posts | Testing GET /posts/50
+2026-05-05 15:49:20 | DEBUG | tests.api.test_posts | Status: 200
+2026-05-05 15:49:20 | INFO | tests.api.test_posts | Testing GET /posts/100
+2026-05-05 15:49:21 | DEBUG | tests.api.test_posts | Status: 200
+2026-05-05 15:49:21 | INFO | tests.api.test_posts | Testing GET /posts/999
+2026-05-05 15:49:21 | DEBUG | tests.api.test_posts | Status: 404
+2026-05-05 15:51:56 | INFO | tests.ui.test_home | Testing page title
+2026-05-05 15:51:56 | INFO | tests.ui.test_home | Title verified: All products | Books to Scrape - Sandbox
+2026-05-05 15:51:59 | INFO | tests.ui.test_home | Testing books are displayed on home page
+2026-05-05 15:51:59 | INFO | tests.ui.test_home | Found 20 books on home page
+2026-05-05 15:52:01 | INFO | tests.ui.test_home | Testing book titles are not empty
+2026-05-05 15:52:01 | INFO | tests.ui.test_home | Verified 20 book titles
+2026-05-05 15:52:05 | INFO | tests.ui.test_home | Testing next page button exists
+2026-05-05 15:52:05 | INFO | tests.ui.test_home | Next page button found
+2026-05-05 15:55:09 | INFO | tests.ui.test_home | Testing page title
+2026-05-05 15:55:09 | INFO | tests.ui.test_home | Title verified: All products | Books to Scrape - Sandbox
+2026-05-05 15:55:11 | INFO | tests.ui.test_home | Testing books are displayed on home page
+2026-05-05 15:55:11 | INFO | tests.ui.test_home | Found 20 books on home page
+2026-05-05 15:55:16 | INFO | tests.ui.test_home | Testing book titles are not empty
+2026-05-05 15:55:16 | INFO | tests.ui.test_home | Verified 20 book titles
+2026-05-05 15:55:20 | INFO | tests.ui.test_home | Testing next page button exists
+2026-05-05 15:55:20 | INFO | tests.ui.test_home | Next page button found
+2026-05-05 15:55:23 | INFO | tests.ui.test_home | Testing category navigation
+2026-05-05 15:55:25 | INFO | tests.ui.test_home | Category navigation passed

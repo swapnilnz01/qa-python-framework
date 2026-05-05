@@ -24,7 +24,7 @@ pipeline {
             steps {
                 sh '''
                     . venv/bin/activate
-                    pytest tests/api/ -v -n 7 \
+                    pytest tests/ -v -n auto \
                         --html=reports/report.html \
                         --self-contained-html
                 '''
