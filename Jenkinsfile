@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    environment {
+        PLAYWRIGHT_BROWSERS_PATH = '/root/.cache/ms-playwright'
+    }
+
     stages {
 
         stage('Checkout') {
