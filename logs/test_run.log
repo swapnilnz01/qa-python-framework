@@ -41,3 +41,15 @@
 2026-05-05 15:55:20 | INFO | tests.ui.test_home | Next page button found
 2026-05-05 15:55:23 | INFO | tests.ui.test_home | Testing category navigation
 2026-05-05 15:55:25 | INFO | tests.ui.test_home | Category navigation passed
+2026-05-05 16:08:35 | INFO | tests.api.test_posts | Testing GET /posts
+2026-05-05 16:08:35 | INFO | tests.api.test_posts | Testing GET /posts/1
+2026-05-05 16:13:36 | INFO | tests.ui.test_home | Testing page title
+2026-05-05 16:13:36 | INFO | tests.ui.test_home | Title verified: All products | Books to Scrape - Sandbox
+2026-05-05 16:13:38 | INFO | tests.ui.test_home | Testing books are displayed on home page
+2026-05-05 16:13:38 | INFO | tests.ui.test_home | Found 20 books on home page
+2026-05-05 16:13:42 | INFO | tests.ui.test_home | Testing book titles are not empty
+2026-05-05 16:13:42 | INFO | tests.ui.test_home | Verified 20 book titles
+2026-05-05 16:13:47 | INFO | tests.ui.test_home | Testing next page button exists
+2026-05-05 16:13:47 | INFO | tests.ui.test_home | Next page button found
+2026-05-05 16:13:51 | INFO | tests.ui.test_home | Testing category navigation
+2026-05-05 16:13:53 | INFO | tests.ui.test_home | Category navigation passed

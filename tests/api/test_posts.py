@@ -2,7 +2,7 @@ from utils.config_reader import ConfigReader
 from utils.logger import get_logger
 
 log = get_logger(__name__)
-POSTS = ConfigReader.get("posts_endpoint")
+POSTS = ConfigReader.get("posts_endpoint")   # store once at top
 
 def test_get_all_posts(api_client):
     log.info("Testing GET /posts")

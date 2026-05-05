@@ -4,7 +4,7 @@ from utils.config_reader import ConfigReader
 
 class APIClient:
     def __init__(self):
-        self.base_url = ConfigReader.get_base_url()
+        self.base_url = ConfigReader.get("BASE_URL")
         self.session = requests.Session()
 
     def get(self, endpoint):              

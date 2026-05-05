@@ -5,7 +5,7 @@ class HomePage:
 
     def __init__(self, page):
         self.page = page
-        self.url = ConfigReader.get_ui_base_url()
+        self.url = ConfigReader.get("UI_BASE_URL")
 
     def navigate(self):
         self.page.goto(self.url)
