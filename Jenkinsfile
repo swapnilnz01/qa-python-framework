@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        PLAYWRIGHT_BROWSERS_PATH = '/root/.cache/ms-playwright'
+        PLAYWRIGHT_BROWSERS_PATH = '/var/jenkins_home/.cache/ms-playwright'
     }
 
     stages {
